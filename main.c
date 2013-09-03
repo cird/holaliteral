@@ -1,4 +1,9 @@
 /*
+main.o:     file format pe-i386
+
+Disassembly of section .text:
+
+00000000 <_printf>:
    0:	55                   	push   %ebp
    1:	89 e5                	mov    %esp,%ebp
    3:	53                   	push   %ebx
@@ -16,6 +21,8 @@
   26:	5b                   	pop    %ebx
   27:	5d                   	pop    %ebp
   28:	c3                   	ret    
+
+00000029 <_main>:
   29:	55                   	push   %ebp
   2a:	89 e5                	mov    %esp,%ebp
   2c:	83 e4 f0             	and    $0xfffffff0,%esp
@@ -33,16 +40,14 @@
 */
 
 
-/*
-void main ( ){ int i=0; do{ h: i++; printf( "HOLA " );}while(i< 5 ); ; ; }
-*/
+//void main ( ){ int i=0; do{ h: i++; printf( "HOLA " );}while(i< 5 ); ; ; }
+
 
 #include<stdio.h>
 #define Computadora void
-#define puede main
-#define por (
+#define por main(
 #define favor ){ int i=0; do{
-#define escribir h: i++; printf(
+#define escriba h: i++; printf(
 #define unas );}while(i<
 #define veces );
 #define cinco 5
@@ -51,7 +56,7 @@ void main ( ){ int i=0; do{ h: i++; printf( "HOLA " );}while(i< 5 ); ; ; }
 #define la ;
 #define pantalla }
 
-Computadora puede por favor escribir "HOLA " unas cinco veces en la pantalla 
+Computadora por favor escriba " HOLA " unas cinco veces en la pantalla 
 
 
 
