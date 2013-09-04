@@ -1,12 +1,12 @@
 #include<stdio.h>
-#define Computadora void
+#define Computadora int
 #define por main(
 #define favor ){ int i=0; do{
 #define escriba h: i++; printf(
 #define unas );}while(i<
 #define diez 10
 #define veces );
-#define en ;
+#define en return 0
 #define la ;
 #define pantalla }
 
