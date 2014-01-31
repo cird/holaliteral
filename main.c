@@ -10,4 +10,9 @@
 #define la ;
 #define pantalla }
 
+
+
 Computadora por favor escriba " Hola " unas diez veces en la pantalla /* Lenguaje C puro. */
+
+
+
