@@ -12,7 +12,9 @@
 
 
 
-Computadora por favor escriba " Hola " unas diez veces en la pantalla /* Lenguaje C puro. */
+/* Lenguaje C puro. */
+
+Computadora por favor escriba " Hola " unas diez veces en la pantalla 
 
 
 
