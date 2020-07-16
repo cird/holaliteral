@@ -10,4 +10,8 @@
 #define la ;
 #define pantalla }
 
-Computadora por favor escriba " Hola " unas diez veces en la pantalla /* Lenguaje C puro. */
+#define mas main();
+
+Computadora por favor escriba " Sapo " unas diez veces mas en la pantalla /* Lenguaje C puro. */
+
+
